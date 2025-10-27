@@ -49,6 +49,18 @@ git commit -m "Proje yapısını düzelterek kök dizini doğru ayarladım"
 git branch -M main
 git push --force origin main
 
+# 1a. Varolan içinde veri bulunan depoya değişiklikleri göndeme
+
+git status
+git add .
+git commit -m "Geliştir: Modül 1'i ileri düzey güvenlik konularıyla zenginleştir" -m "
+- SQL Injection bölümü, UNION, Boolean-based ve Error-based saldırı örnekleriyle güncellendi.
+- Ham SQL ve ORM karşılaştırmasına somut ve yıkıcı saldırı simülasyonları eklendi.
+- Modern uygulamalardaki çok katmanlı savunma stratejisi (WAF, Input Validation, Veritabanı Yetkileri vb.) açıklandı.
+- Pedagojik anlatımlar ve gerçek dünya benzetmeleri güçlendirildi."
+git push origin main
+
+
 # 2. Sanal ortam oluşturun (isteğe bağlı ama önerilir)
 python -m venv venv
 source venv/bin/activate  # Linux/macOS
