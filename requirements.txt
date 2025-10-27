@@ -1,0 +1,30 @@
+# Backend
+fastapi==0.120.0
+uvicorn[standard]==0.38.0
+sqlalchemy==2.0.44
+asyncpg==0.30.0
+redis==7.0.0
+
+# Web
+jinja2==3.1.6
+python-multipart==0.0.20
+
+# Frontend
+flet==0.70.0.dev6444
+requests==2.32.5
+
+# Güvenlik
+python-jose[cryptography]==3.5.0
+passlib[bcrypt]==1.7.4
+
+# Test
+pytest==8.4.2
+pytest-asyncio==1.2.0
+httpx==0.28.1
+
+# Ortam
+python-dotenv==1.2.1
+
+# Göç
+alembic==1.17.0
+psycopg2-binary==2.9.11  # Alembic için senkron sürücü
